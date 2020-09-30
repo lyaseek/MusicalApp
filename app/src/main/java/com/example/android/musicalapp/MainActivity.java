@@ -20,12 +20,12 @@ import java.util.Random;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     static
     List<Song> songsList = Arrays.asList(
-            new Song("Appache 207", "Treppen Haus", R.mipmap.treppenhaus_appache, "Boot"),
-            new Song("Elderbrook", "Why do we shake in the cold?", R.mipmap.why_do_we, "All My Love"),
-            new Song("Washed Out", "Purple Noon", R.mipmap.purplenoon, "Face Up"),
-            new Song("TWO LANES", "Lights", R.mipmap.lights, "The Rest Is Noise"),
-            new Song("Taylor Swift", "folklore", R.mipmap.folklore, "the 1"),
-            new Song("Rhye", "Blood", R.mipmap.blood, "Taste"));
+            new Song("Appache 207", "Treppen Haus", R.drawable.treppenhaus, "Boot"),
+            new Song("Elderbrook", "Why do we shake in the cold?", R.drawable.why_do_we_shake_in_the_cold, "All My Love"),
+            new Song("Washed Out", "Purple Noon", R.drawable.purplenoon, "Face Up"),
+            new Song("TWO LANES", "Lights", R.drawable.lights, "The Rest Is Noise"),
+            new Song("Taylor Swift", "folklore", R.drawable.folklore, "the 1"),
+            new Song("Rhye", "Blood", R.drawable.blood, "Taste"));
     Boolean playStatus = true;
     static Song song;
     static Intent songsIntent;
